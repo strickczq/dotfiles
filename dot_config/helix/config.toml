@@ -1,0 +1,26 @@
+theme = "hin"
+
+[editor]
+true-color = true
+color-modes = true
+
+[editor.lsp]
+enable = true
+display-inlay-hints = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+
+[editor.whitespace.render]
+space = "none"
+nbsp = "all"
+tab = "all"
+newline = "none"
